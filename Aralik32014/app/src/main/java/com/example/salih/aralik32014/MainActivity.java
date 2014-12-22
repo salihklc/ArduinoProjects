@@ -27,7 +27,7 @@ public class MainActivity extends Activity {
         mySwitch.setChecked(true);
         myToggle.setChecked(false);
         myText.setHint("password'unuzu giriniz !");
-
+	//branch test 123
         myToggle.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
@@ -37,7 +37,7 @@ public class MainActivity extends Activity {
                 else if(!myToggle.isChecked())
                 {
                     myText.setTransformationMethod(null);
-                }
+               }
             }
         });
 
